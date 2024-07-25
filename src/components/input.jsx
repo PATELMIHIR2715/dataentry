@@ -1,33 +1,29 @@
-function Input({ category, handleclick }) {
-  let handleonclick = (e) => {
-    console.log(e);
-  };
+function Input(props) {
   return (
-    <div>
+    <div className="main">
       <select
-        onChange={(event) => handleonclick(event)}
+        onChange={(event) => props.handleclick(event)}
         class="form-select"
         aria-label="Default select example"
       >
         <option>Select Category</option>
-        {category.map((i) => (
-          <option
-            onChange={(i) => {
-              console.log("here");
-              handleclick(i);
-            }}
-            value="1"
-            key={i}
-          >
+        {props.category.map((i) => (
+          <option value={i} key={i}>
             {i}
           </option>
         ))}
       </select>
-      <select class="form-select" aria-label="Default select example">
+      <select
+        class="form-select"
+        aria-label="Default select example"
+        onChange={(event) => props.showdata(event)}
+      >
         <option selected>Select library</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
+        {props.library.map((i) => (
+          <option value={i} key={i}>
+            {i}
+          </option>
+        ))}
       </select>
     </div>
   );

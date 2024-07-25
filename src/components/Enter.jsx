@@ -1,13 +1,15 @@
 function Enter({ arr }) {
+  const ind = 0;
   return (
-    <div>
-      <table class="table">
+    <div className="main rounded">
+      <table className="table table-bordered table-hover rounded">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">Sr</th>
+            <th scope="col">Name of library</th>
+            <th scope="col">Grant Taken</th>
+            <th scope="col">amount of grant</th>
+            <th scope="col">status</th>
           </tr>
         </thead>
         <tbody>
@@ -17,6 +19,7 @@ function Enter({ arr }) {
               <td>{i.name}</td>
               <td>{i.grantetaken}</td>
               <td>{i.grantamount}</td>
+              <td>{i.status}</td>
             </tr>
           ))}
         </tbody>

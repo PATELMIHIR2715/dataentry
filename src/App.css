@@ -1,4 +1,12 @@
 .form-select {
-  display: inline;
-  width: 500px;
+  display: inline-block;
+  max-width: 380px;
+  margin: 7px;
+}
+.main {
+  max-width: 800px;
+}
+.tablec {
+  border-radius: 10px;
+  background-color: black;
 }

@@ -23,29 +23,32 @@ function Form() {
             />
           </label>
         </div>
-        <div class="form-check">
-          <label class="form-check-label" for="flexRadioDefault1">
-            Default radio
-            <input
-              class="form-check-input"
-              type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault1"
-            />
+        <div class="form-check form-check-inline">
+          <label class="form-check-label">grant taken?</label>
+          <input
+            class="form-check-input"
+            type="radio"
+            name="inlineRadioOptions"
+            id="inlineRadio1"
+            value="option1"
+          />
+          <label class="form-check-label" for="inlineRadio1">
+            Yes
           </label>
         </div>
-        <div class="form-check">
-          <label class="form-check-label" for="flexRadioDefault2">
-            Default checked radio
-            <input
-              class="form-check-input"
-              type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault2"
-              checked
-            />
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="inlineRadioOptions"
+            id="inlineRadio2"
+            value="option2"
+          />
+          <label class="form-check-label" for="inlineRadio2">
+            No
           </label>
         </div>
+        <br />
         <button type="submit" class="btn btn-primary">
           Submit
         </button>

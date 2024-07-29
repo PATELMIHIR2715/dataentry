@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Enter from "./components/Enter";
 import Input from "./components/input";
-
+import Form from "./form";
 function App() {
   let [arr, datastate] = useState([]);
   let unjha = [

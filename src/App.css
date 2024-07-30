@@ -49,6 +49,12 @@ input[type="number"] {
 }
 .highlight {
   font-weight: 500;
+  border-bottom: 2px solid grey;
+}
+.extrahighlight {
+  display: inline-block;
+  font-weight: 700;
+  border-bottom: 2px solid black;
 }
 .th {
   width: 20%;
@@ -58,4 +64,23 @@ input[type="number"] {
 }
 .tab2 {
   text-indent: 60px;
+}
+.head {
+  background-color: lightblue;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 2px, solid gray;
+}
+.form .teablehead {
+  background-color: lightblue;
+  text-align: center;
+}
+.form table {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.form tbody {
+  border: 1px solid black;
+  border-radius: 5px;
 }

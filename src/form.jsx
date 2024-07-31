@@ -511,8 +511,8 @@ function Form() {
       </div>
       <div class="row mb-3 col-13 align-items-center">
         <div class="col">
-          <label for="inputPassword6" class="col-form-label col highlight">
-            ગત વર્ષના આવક ખર્ચાના હિસાબો : (નમૂના :ક મુજબ) :
+          <label for="inputPassword6" class="col-form-label col-10 highlight">
+            gat varsh na aavak- kharchna hishabo :
           </label>
         </div>
       </div>
@@ -574,9 +574,8 @@ function Form() {
       </div>
       <div class="row mb-3 col-13 align-items-center">
         <div class="col-13">
-          <label for="inputPassword6" class="col-form-label col highlight">
-            ગ્રંથાલયમાં આવેલ ડેડસ્ટોકની વિગતો (અલગ પત્રકમાં યાદી બનાવીને જોડવી)
-            :
+          <label for="inputPassword6" class="col-form-label col-10 highlight">
+            granthalayma avela dead stockni vigato :
           </label>
         </div>
       </div>
@@ -610,8 +609,8 @@ function Form() {
       </div>
       <div class="row mb-3 col-13 align-items-center">
         <div class="col-7">
-          <label for="inputPassword6" class="col-form-label col highlight">
-            વર્ષ દરમિયાન ગ્રંથાલયમાં આવતા વર્તમાનપત્રો તથા સામયિકોના નામ :
+          <label for="inputPassword6" class="col-form-label col-10 highlight">
+            gat varsh na aavak- kharchna hishabo :
           </label>
         </div>
         <div class="col">
@@ -648,8 +647,8 @@ function Form() {
       </ul>
       <div class="row mb-3 col-13 align-items-center">
         <div class="col">
-          <label for="inputPassword6" class="col-form-label col highlight">
-            ગ્રંથાલયમાં નીચેનું દફતર નિભાવવામાં આવે છે ? :
+          <label for="inputPassword6" class="col-form-label col-10 highlight">
+            granthalayma nicheni daftar nibhavvama ave che :
           </label>
         </div>
       </div>
@@ -867,8 +866,8 @@ function Form() {
       </div>
       <div class="row mb-3 col-sm-13 align-items-center">
         <div class="col">
-          <label for="inputPassword6" class="col-form-label highlight">
-            સરકારી અનુદાનની ગણતરી માટેની ગતવર્ષની ખર્ચની વિગતો :
+          <label for="inputPassword6" class="col-form-label ">
+            sarkari anudanni ganatri mateni gatvarshani kharchni vigat :
           </label>
         </div>
       </div>
@@ -878,21 +877,11 @@ function Form() {
             <table class="table table-bordered">
               <thead>
                 <tr>
-                  <th className="teablehead " scope="col">
-                    ક્રમ
-                  </th>
-                  <th className="teablehead " scope="col">
-                    વિગત
-                  </th>
-                  <th className="teablehead " scope="col">
-                    કરેલું ખર્ચ
-                  </th>
-                  <th className="teablehead " scope="col">
-                    માન્ય ખર્ચ
-                  </th>
-                  <th className="teablehead " scope="col">
-                    વિશેષ નોંધ
-                  </th>
+                  <th scope="col">kram</th>
+                  <th scope="col">vigat</th>
+                  <th scope="col">karel kharch</th>
+                  <th scope="col">manya kharch</th>
+                  <th scope="col">visesh nodh</th>
                 </tr>
               </thead>
               <tbody>
@@ -1039,28 +1028,22 @@ function Form() {
       </center>
 
       <center>
-        <div className="head">
-          <h1 className="extrahighlight">નમૂનો : ક</h1>
-          <br />
-          <p className=" extrahighlight">
-            ગ્રંથાલયોને અનુદાનના નિયમ :૬(છ)ના પરિશિષ્ટ : ક ના આસન ૧૩ અને ૧૪ની
-            માહિતીનું વિવરણ પત્રક
-          </p>
-          <br />
-          <p className="extrahighlight">(ગત વર્ષના આવક તથા ખર્ચનું પત્રક)</p>
-        </div>
+        <h1>namoono : k</h1>
+        <br />
+        <p>
+          granthalayne anudanna niyam : 6 na parishisht : k na aashn 13 ane 14
+          ni mahitinu vivaran patrak
+        </p>
+        <br />
+        <p>(gat varshna aavak tatha kharchnu patrak)</p>
       </center>
       <div class="row mb-3 col-sm-13 align-items-center">
         <div class="col">
           <table class="table table-bordered">
             <thead>
               <tr>
-                <th className="teablehead " scope="col">
-                  આવક
-                </th>
-                <th className="teablehead " scope="col">
-                  ખર્ચ
-                </th>
+                <th scope="col">avak</th>
+                <th scope="col">kharch</th>
               </tr>
             </thead>
             <tbody>
@@ -1289,7 +1272,7 @@ function Form() {
                   <div class="row mb-3 tab col-sm-13 align-items-center">
                     <div class="col">
                       <label for="inputPassword6" class="col-form-label ">
-                        ૨. વર્તમાન પત્રો, સામયિકો :
+                        2. vartman patro,samyiko :
                       </label>
                     </div>
                     <div class="col">
@@ -1403,29 +1386,14 @@ function Form() {
                   <div class="row mb-3 col-sm-13 align-items-center">
                     <div class="col">
                       <label for="inputPassword6" class="col-form-label ">
-                        ક. ફર્નિચર ખર્ચ :
+                        k. farnichar kharch :
                       </label>
                     </div>
                   </div>
                   <div class="row mb-3 tab col-sm-13 align-items-center">
                     <div class="col">
                       <label for="inputPassword6" class="col-form-label ">
-                        ૧. ફર્નિચર :
-                      </label>
-                    </div>
-                    <div class="col">
-                      <input
-                        type="text"
-                        id="inputPassword6"
-                        class="form-control"
-                        aria-describedby="passwordHelpInline"
-                      />
-                    </div>
-                  </div>
-                  <div class="row mb-3 tab col-sm-13 align-items-center">
-                    <div class="col">
-                      <label for="inputPassword6" class="col-form-label ">
-                        ૨. ફર્નિચર મરામત :
+                        1. furnichar :
                       </label>
                     </div>
                     <div class="col">
@@ -1440,7 +1408,22 @@ function Form() {
                   <div class="row mb-3 tab col-sm-13 align-items-center">
                     <div class="col">
                       <label for="inputPassword6" class="col-form-label ">
-                        ૩. અન્ય સાધન સામગ્રી :
+                        2. farnichar maramat :
+                      </label>
+                    </div>
+                    <div class="col">
+                      <input
+                        type="text"
+                        id="inputPassword6"
+                        class="form-control"
+                        aria-describedby="passwordHelpInline"
+                      />
+                    </div>
+                  </div>
+                  <div class="row mb-3 tab col-sm-13 align-items-center">
+                    <div class="col">
+                      <label for="inputPassword6" class="col-form-label ">
+                        3. anya sadhan samagri :
                       </label>
                     </div>
                     <div class="col">
@@ -1455,7 +1438,7 @@ function Form() {
                   <div class="row mb-3 tab2 col-sm-13 align-items-center">
                     <div class=" col">
                       <label for="inputPassword6" class="tab2 col-form-label ">
-                        કુલ :
+                        total :
                       </label>
                     </div>
                     <div class="col">
@@ -1471,29 +1454,14 @@ function Form() {
                   <div class="row mb-3 col-sm-13 align-items-center">
                     <div class="col">
                       <label for="inputPassword6" class="col-form-label ">
-                        ડ. મકાન ભાડુ તથા પરચુરણ ખર્ચ :
+                        d. makan bhadu tatha parchuran kharch :
                       </label>
                     </div>
                   </div>
                   <div class="row mb-3 tab col-sm-13 align-items-center">
                     <div class="col">
                       <label for="inputPassword6" class="col-form-label ">
-                        ૧. મકાન ભાડુ :
-                      </label>
-                    </div>
-                    <div class="col">
-                      <input
-                        type="number"
-                        id="inputPassword6"
-                        class="form-control"
-                        aria-describedby="passwordHelpInline"
-                      />
-                    </div>
-                  </div>
-                  <div class="row mb-3 tab col-sm-13 align-items-center">
-                    <div class="col">
-                      <label for="inputPassword6" class="col-form-label ">
-                        ૨. મકાન મરામત(સામાન્ય) :
+                        1. makanbhadu :
                       </label>
                     </div>
                     <div class="col">
@@ -1508,7 +1476,7 @@ function Form() {
                   <div class="row mb-3 tab col-sm-13 align-items-center">
                     <div class="col">
                       <label for="inputPassword6" class="col-form-label ">
-                        ૩. કરવેરા :
+                        2. makan maramat :
                       </label>
                     </div>
                     <div class="col">
@@ -1523,7 +1491,7 @@ function Form() {
                   <div class="row mb-3 tab col-sm-13 align-items-center">
                     <div class="col">
                       <label for="inputPassword6" class="col-form-label ">
-                        ૪. સ્ટેશનરી/છપામાણી :
+                        3. karvera :
                       </label>
                     </div>
                     <div class="col">
@@ -1538,7 +1506,7 @@ function Form() {
                   <div class="row mb-3 tab col-sm-13 align-items-center">
                     <div class="col">
                       <label for="inputPassword6" class="col-form-label ">
-                        ૫. ટપાલ ખર્ચ :
+                        4. stesnori :
                       </label>
                     </div>
                     <div class="col">
@@ -1553,7 +1521,7 @@ function Form() {
                   <div class="row mb-3 tab col-sm-13 align-items-center">
                     <div class="col">
                       <label for="inputPassword6" class="col-form-label ">
-                        ૬. પ્રવાસ ખર્ચ :
+                        5. tapal kharch :
                       </label>
                     </div>
                     <div class="col">
@@ -1568,7 +1536,7 @@ function Form() {
                   <div class="row mb-3 tab col-sm-13 align-items-center">
                     <div class="col">
                       <label for="inputPassword6" class="col-form-label ">
-                        ૭. વીમાનું પ્રીમિયમ :
+                        6. pravash kharch:
                       </label>
                     </div>
                     <div class="col">
@@ -1583,7 +1551,7 @@ function Form() {
                   <div class="row mb-3 tab col-sm-13 align-items-center">
                     <div class="col">
                       <label for="inputPassword6" class="col-form-label ">
-                        ૮. વીજળી ખર્ચ :
+                        7. vimanu primium :
                       </label>
                     </div>
                     <div class="col">
@@ -1598,7 +1566,22 @@ function Form() {
                   <div class="row mb-3 tab col-sm-13 align-items-center">
                     <div class="col">
                       <label for="inputPassword6" class="col-form-label ">
-                        ૯. પરચુરણ ખર્ચ :
+                        8. vijali kharch :
+                      </label>
+                    </div>
+                    <div class="col">
+                      <input
+                        type="number"
+                        id="inputPassword6"
+                        class="form-control"
+                        aria-describedby="passwordHelpInline"
+                      />
+                    </div>
+                  </div>
+                  <div class="row mb-3 tab col-sm-13 align-items-center">
+                    <div class="col">
+                      <label for="inputPassword6" class="col-form-label ">
+                        9. parchuran kharch :
                       </label>
                     </div>
                     <div class="col">
